@@ -29,6 +29,7 @@ h6 {
   margin-block: 0;
   margin-bottom: 0;
 }
+img { display: block; height: auto; max-width: 100%; }
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -110,9 +111,15 @@ color: #434455;
 .address-link:focus {
     color: #404BBF;
 }
+.hero-section{
+
+   padding-top: 185px;
+   padding-bottom: 295px;
+  
+}
+
 .title-section{
 background-color: #2E2F42;
-padding: 185px 472px 295px 472px;
 
 }
 .container-main{
@@ -120,6 +127,14 @@ width: 1440px;
 padding-left: 15px;
 padding-right: 15px;
 margin-inline: auto;
+
+}
+.title-section-text{
+    display: block;
+   margin: 0 auto;
+max-width: 496px;
+margin-bottom: 48px;
+
 }
 .title-section-text{
     font-weight: 700;
@@ -128,8 +143,6 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-max-width: 496px;
-margin-bottom: 48px;
 
 }
 .btn{
@@ -211,6 +224,7 @@ padding-bottom: 72px;
 .our-team-job{
     display: flex;
     gap: 24px;
+
     
 }
 .section-img{
@@ -246,8 +260,15 @@ padding-bottom: 32px;
 
 .our-portfolio{
     background-color: #FFFFFF;
+    
 }
+.portfolio-list{
+    border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
 
+
+}
 .portfolio-title{
     font-weight: 700;
 font-size: 36px;
@@ -259,9 +280,11 @@ padding-top: 120px;
 padding-bottom: 72px;
 }
 .portfolio-img{
-    display: flex;
+      display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+width: calc(100% - 24px * 2)/3;
+    padding-bottom: 120px;
+    
 }
 
 
@@ -281,7 +304,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 list-style: none; 
 padding-top: 32px;
-padding-bottom: 8px;
+ padding-bottom: 8px;
 
 }
 .portfolio-text{
@@ -292,11 +315,17 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #434455;
 padding-bottom: 32px;
+
+}
+.container-footer{
+    width: 1440px;
+    padding-top: 100px;
+    
 }
  .footer{
     background-color: #2E2F42;
     color: #F4F4FD;
-    padding-block: 100px;
+   
  }
 
  .logo-footer{
@@ -307,9 +336,13 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
+
 }
 .footer-text{
-    display: flex;
+   display: block;
+   max-width: 264px;
+   padding-top: 16px;
+   padding-bottom: 100px;
 }
 .footer-text{
     font-weight: 400;
