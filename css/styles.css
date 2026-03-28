@@ -15,6 +15,10 @@ ol,
 ul{
     list-style-type: none;
       margin-block: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      padding-right: 0;
   padding-left: 0;
 
 }
@@ -212,8 +216,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 
 
 }
@@ -224,12 +227,14 @@ padding-bottom: 72px;
 .our-team-job{
     display: flex;
     gap: 24px;
-    
+        padding-bottom: 120px;
+  
 }
 .section-img{
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
-}
+
+   }
  
  .box-text-name{
     font-weight: 500;
@@ -251,7 +256,7 @@ color: #2e2f42;
 }
   
  .container-team{
-    padding-bottom: 120px;
+
 
  }
  .box-text{
@@ -266,12 +271,19 @@ padding-top: 8px;
  }
 
 .our-team-section{
-     background-color: #F4F4FD;
+     background-color: #F4F4FD; 
+     padding-top: 120px;
+
 }
 
 .our-portfolio{
     background-color: #FFFFFF;
-  
+    padding-top: 120px;
+
+
+}
+.container-portfolio{
+    padding-bottom: 120px;
 }
 .portfolio-list{
  
@@ -285,8 +297,8 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
+
 }
 .fotocard{
       padding-top: 32px;
@@ -303,7 +315,6 @@ border-right: 1px solid #e7e9fc;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    padding-bottom: 120px;
     
 }
 
