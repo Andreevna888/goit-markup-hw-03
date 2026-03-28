@@ -202,7 +202,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .list-features{
-    width: calc(100% - 24px * 3)/4;
+    width: calc((100% - 24px * 3)/4);
 }
 
 
@@ -260,13 +260,13 @@ padding-bottom: 32px;
 
 .our-portfolio{
     background-color: #FFFFFF;
-    
+  
 }
 .portfolio-list{
     border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
-
+width: calc((100% - 24px * 2)/3);
 
 }
 .portfolio-title{
@@ -282,7 +282,8 @@ padding-bottom: 72px;
 .portfolio-img{
       display: flex;
     flex-wrap: wrap;
-width: calc(100% - 24px * 2)/3;
+    gap: 24px;
+
     padding-bottom: 120px;
     
 }
